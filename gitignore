@@ -1,0 +1,23 @@
+# Visual Studio / C++
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+x64/
+Debug/
+Release/
+*.obj
+*.pdb
+*.idb
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Telemetry / Logs
+tests/distributed_swarm/distributed_telemetry.json

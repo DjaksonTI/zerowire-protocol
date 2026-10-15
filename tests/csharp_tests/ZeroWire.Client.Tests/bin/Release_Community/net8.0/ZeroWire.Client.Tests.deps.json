@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ZeroWire.Client.Tests/1.0.0": {
+        "dependencies": {
+          "ZeroWire.Client": "1.0.0"
+        },
+        "runtime": {
+          "ZeroWire.Client.Tests.dll": {}
+        }
+      },
+      "ZeroWire.Client/1.0.0": {
+        "runtime": {
+          "ZeroWire.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ZeroWire.Client.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ZeroWire.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

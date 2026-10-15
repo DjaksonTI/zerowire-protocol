@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>ZeroWire.Client</AssemblyName>
+    <RootNamespace>ZeroWire.Client</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>ZeroWire Protocol Authors</Authors>
+    <Description>Enterprise C# Client SDK for ZeroWire Stateful Transport Engine</Description>
+    <Configurations>Debug;Release;Release_Community;Release_Commercial</Configurations>
+  </PropertyGroup>
+	<ItemGroup>
+		<Content Include="..\..\..\bin\x64\Release_Community\zerowire.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<Link>zerowire.dll</Link>
+		</Content>
+	</ItemGroup>
+</Project>
