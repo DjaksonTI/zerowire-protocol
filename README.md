@@ -1,5 +1,9 @@
 <div align="center">
 
+<p align="center">
+  <img src="assets/logo.jpg" alt="ZeroWire Protocol Logo" width="200"/>
+</p>
+
 # ZeroWire Protocol
 ### High-Performance Radix-Trie Transport Engine for Distributed Agent Swarms
 
